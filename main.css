@@ -1,0 +1,335 @@
+body{
+  background-color:
+}
+
+*{
+  font-family: "Quicksand", sans-serif;
+  color: #ddd;
+}
+*:active, *:focus{
+  outline: none;
+}
+
+html, body{
+  height: 100%;
+  margin: 0px auto;
+}
+
+body{
+  margin: 0 auto;
+  background: #369dfc;
+}
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  width: 15px;
+  height:15px;
+  border-radius: 100%;
+  text-align:center;
+  left:100%;
+  top: 10%;
+  background-color: yellow;
+  padding: 30px;
+  font-size: 30px;
+}
+
+.responsive {
+  display:none;
+}
+
+.responsive2{
+  display:none;
+}
+
+#illustration{
+  margin-top:50px;
+}
+
+.l1{
+  position: absolute;
+  top: 23%;
+  left: 27%;
+   width:670px;height:670px;
+  animation:infinite;
+  animation-name: float;
+  animation-duration: 9s;
+  animation-delay:0.3s;
+
+}
+
+.l2{
+  position: absolute;
+  top: 25%;
+  left: 24%;
+  width:600px;height:600px;
+  animation:infinite;
+  animation-name: float;
+  animation-duration: 7s; 
+}
+
+.l2-1{
+  position: absolute;
+  top: 25%;
+  left: 24%;
+  width:730px;height:740px;
+  animation:infinite;
+  animation-name: float;
+  animation-delay:0.5s;
+  animation-duration: 7.3s; 
+}
+
+.l3{
+  position: absolute;
+  top: 27%;
+  left: 38%;
+  width:600px;height:600px;
+  animation:infinite;
+  animation-name: float;
+  animation-duration: 7.5s;
+  animation-delay:0.4s;
+}
+
+.l4{
+  position: absolute;
+  top: 27%;
+  left: 35%;
+  width:600px;height:600px;
+  animation:infinite;
+  animation-name: float;
+  animation-duration: 7.2s;
+  animation-delay:0.6s;
+}
+
+.scrollAnim{
+  height: 100%;
+  opacity: 0;
+  transition: 0.8s;
+  display: flex;
+  margin-left:47px;
+  padding: 0 120px;
+
+}
+.scrollAnim:nth-child(2){
+  background:
+}
+.scrollAnim:nth-child(4){
+  background: #
+}
+.scrollAnim .content{
+  margin: auto;
+}
+.scrollAnim.anim{
+  opacity: 1;
+}
+
+.block {
+  height: 550px;
+  width:350px;
+  margin: 50px 35px 50px 0px;
+  background: #a9d6ff;
+  font-size:70px;
+  color: #eee;
+  line-height: 90px;
+  text-align: center;
+}
+
+
+.block-small{
+  height: 250px;
+  width:350px;
+  margin: 50px 35px 50px 0px;
+  background: black;
+  color: #eee;
+  font-size: 70px;
+  line-height: 90px;
+  text-align: center;
+}
+
+.block-big{
+  height:600px;
+  width:1100px;
+  margin: 50px 35px 110px 0px;
+  background: black;
+  color: #eee;
+  font-size: 70px;
+  line-height: 90px;
+  text-align: center;
+}
+
+.block p{
+  font-size:20px;
+}
+
+.block img{
+  margin-right: 20px;
+}
+
+.block-small p{
+  font-size:20px;
+}
+
+.block-big p{
+  font-size:20px;
+}
+
+.a{
+  width:500px;height:480px;
+}
+
+.b{
+  width:500px;height:500px;
+}
+.row {
+  display: flex;
+}
+
+.row > *{
+  flex: 1;
+}
+
+h1{
+  display: block;
+  color: black;
+  font-size: 5.2em;
+  font-weight: bold;
+  margin: 0;
+  line-height: 1.2em;
+  transition: all 0.8s;
+  padding-left: 0;
+  font-family: 'Cute Font', cursive;
+}
+
+h2{
+  display: block;
+  color: black;
+  font-size: 4em;
+  font-weight: bold;
+  margin: 0;
+  line-height: 1.2em;
+  transition: all 0.8s;
+  padding-left: 0;
+  font-family:'Cute Font', cursive;
+}
+
+h3{
+  position: absolute;
+  top: 9%;
+  left: 36%;
+  font-family: 'cute', sans-serif;
+  font-size:1.4rem;
+  color:#f8e0ea;
+}
+
+h4{
+  font-family: 'cute', sans-serif;
+  position: absolute;
+  top: 1%;
+  left: 52%;
+  font-size:1.4rem;
+}
+
+.anim h1, .anim h2{
+  transition-delay: 0.1s;
+}
+
+p{ 
+  font-size: 2em;
+  transition: all 1.2s;
+  font-family: 'Teko', sans-serif;
+}
+
+.anim-top{
+  transform: translate(0,150px);
+}
+
+.anim-left{
+  margin-top:3rem;
+  transform: translate(-150px,0);
+}
+.anim .anim-top{
+  margin-top:3rem;
+  transform: translate(0,0);
+}
+.anim .anim-left{
+  transform: translate(0,0);  
+}
+
+.steps{
+  width: 100%;
+  margin: auto;
+}
+
+button{
+  color: #333;
+  background-color: #eee;
+  border: none;
+  padding: 0.5em;
+  width: 9em;
+  margin: 0.2em;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+button:hover{
+  background-color: #ddd;
+}
+
+.scroller{
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+
+
+@keyframes fadeIn {
+  from{ 
+    opacity:  0; 
+  }
+  to{
+    opacity: 1;
+  }
+}
+@keyframes fadeInOut {
+  0%{ 
+    opacity:  0; 
+  }
+  50%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  25% {
+    transform: translatey(-20px);
+  }
+  50% {
+    transform: translatey(0px);
+  }
+  75% {
+  transform: translatey(-20px);
+  }
+  100%{
+    transform: translatey(0px);
+  }
+
+
+
+
+
+
+
+
+  
+
+  @media only screen and (max-width: 810px)
+    {
